@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author lzn
  * @date 2023/03/26 17:46
- * @Description
+ * @description Aspect of the operate log, scan the class that use the @RecordOperate annotation and store them into the database asynchronously
  */
 @Aspect
 @Component

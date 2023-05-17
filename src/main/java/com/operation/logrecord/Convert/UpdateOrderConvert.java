@@ -6,7 +6,7 @@ import com.operation.logrecord.Entity.UpdateOrder;
 /**
  * @author lzn
  * @date 2023/03/26 18:01
- * @Description
+ * @description
  */
 public class UpdateOrderConvert implements OrderConvert<UpdateOrder>{
 

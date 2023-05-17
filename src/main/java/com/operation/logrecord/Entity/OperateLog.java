@@ -3,7 +3,7 @@ package com.operation.logrecord.Entity;
 /**
  * @author lzn
  * @date 2023/03/26 17:43
- * @Description
+ * @description
  */
 public class OperateLog {
 

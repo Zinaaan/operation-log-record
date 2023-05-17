@@ -7,7 +7,7 @@ import java.lang.annotation.*;
 /**
  * @author lzn
  * @date 2023/03/26 17:44
- * @Description
+ * @description
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
@@ -17,5 +17,5 @@ public @interface RecordOperate {
     //description of current method
     String desc() default "";
 
-    Class<? extends OrderConvert> convert();
+    Class<? extends OrderConvert<?>> convert();
 }
